@@ -3,6 +3,7 @@
     <csstest></csstest>
     <clippath></clippath>
     <htmlTest></htmlTest>
+    <skeleton></skeleton>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import csstest from './csstest'
 import clippath from './clippath'
 import htmlTest from './H5'
+import skeleton from './Skeleton'
 export default {
   name: 'HelloWorld',
 
   components: {
     csstest,
     clippath,
-    htmlTest
+    htmlTest,
+    skeleton
   },
   method: {
     sort () {
