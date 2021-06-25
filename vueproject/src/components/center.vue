@@ -23,7 +23,16 @@
       </div>
     </div>
 
-    <!-- 二、水平垂直居中 -->
+    <!-- 二、水平垂直居中
+    方法                             条件                兼容性
+    flex                            无条件              IE10+
+    margin+absolute                 知道子元素宽高       IE8+
+    transform+absolute              无，子元素宽高为偶数 IE10+
+    absolute+margin负值             知道子元素宽高       
+    absolute+calc                   知道子元素宽高       IE9+
+    line-height + vertical-align    知道父元素宽高
+
+     -->
     <div>
       <!-- 1、flex布局  flex布局出现以后，垂直居中就很方便了，直接设置父元素：
         display: flex
