@@ -4,6 +4,7 @@
     <clippath></clippath>
     <htmlTest></htmlTest>
     <skeleton></skeleton>
+    <center></center>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import csstest from './csstest'
 import clippath from './clippath'
 import htmlTest from './H5'
 import skeleton from './Skeleton'
+import center from './center'
 export default {
   name: 'HelloWorld',
 
@@ -19,7 +21,8 @@ export default {
     csstest,
     clippath,
     htmlTest,
-    skeleton
+    skeleton,
+    center,
   },
   method: {
     sort () {
