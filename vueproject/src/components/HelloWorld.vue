@@ -1,28 +1,25 @@
 <template>
   <div class="hello">
-    <csstest></csstest>
-    <clippath></clippath>
-    <htmlTest></htmlTest>
-    <skeleton></skeleton>
-    <center></center>
+    <!-- <csstest></csstest>
+     <clippath></clippath>
+    <htmlTest></htmlTest> -->
+    <parent></parent>
   </div>
 </template>
 
 <script>
-import csstest from './csstest'
-import clippath from './clippath'
-import htmlTest from './H5'
-import skeleton from './Skeleton'
-import center from './center'
+//import csstest from './csstest'
+// import clippath from './clippath'
+// import htmlTest from './H5'
+import parent from './parent.vue'
 export default {
   name: 'HelloWorld',
 
   components: {
-    csstest,
-    clippath,
-    htmlTest,
-    skeleton,
-    center,
+    // csstest,
+    // clippath,
+    // htmlTest,
+    parent
   },
   method: {
     sort () {
