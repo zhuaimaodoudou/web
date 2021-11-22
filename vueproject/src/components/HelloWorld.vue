@@ -3,7 +3,8 @@
     <!-- <csstest></csstest>
      <clippath></clippath>
     <htmlTest></htmlTest> -->
-    <parent></parent>
+    <!-- <parent></parent> -->
+    <cssBtn></cssBtn>
   </div>
 </template>
 
@@ -11,7 +12,8 @@
 //import csstest from './csstest'
 // import clippath from './clippath'
 // import htmlTest from './H5'
-import parent from './parent.vue'
+//import parent from './parent.vue'
+import cssBtn from './cssBtn.vue'
 export default {
   name: 'HelloWorld',
 
@@ -19,23 +21,11 @@ export default {
     // csstest,
     // clippath,
     // htmlTest,
-    parent
+    //parent,
+    cssBtn
   },
   method: {
-    sort () {
-      let list = [1, 3, 5, 2, 4];
-      for (let i = 0; i < list.length; i++) {
-        for (let j = 0; j < list.length - i; j++) {
-          let temp;
-          if (list[j] > list[j + 1]) {
-            temp = list[j];
-            list[j] = list[j + 1];
-            list[j + 1] = temp;
-          }
-        }
-      }
-      console.log(list)
-    }
+
   }
 }
 </script>
